@@ -1,0 +1,21 @@
+/* 
+  selector etiqueta         0,0,1
+  selector clase            0,1,0
+  selector id               1,0,0
+  estilo en linea         1,0,0,0
+  !important          Le gana a todo
+*/
+
+h1#title{
+  background-color: lightslategray;
+}
+#title{
+  background-color: yellowgreen;
+}
+.title{
+  background-color: brown;
+}
+/* h1{
+  background-color: lightcoral !important;
+} */
+
