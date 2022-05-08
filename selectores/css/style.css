@@ -1,0 +1,15 @@
+p{
+  background-color: royalblue;
+}
+
+.text{
+  background-color: magenta;
+}
+
+.text--blue{
+  color: blue;
+}
+
+#text-id{
+  color: brown;
+}
