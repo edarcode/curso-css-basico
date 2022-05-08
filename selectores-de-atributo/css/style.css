@@ -1,0 +1,19 @@
+/* 
+ [atributo]         Selecciona todas las etiquetas que tengan un atributo href
+ [atributo=valor]   Selecciona las etiquetas cuyo atributo=valor
+ [atributo^=valor]  Selecciona las etiquetas cuyo atributo comience con valor
+ [atributo*=valor]  Selecciona las etiquetas cuyo atributo contenga valor
+ [atributo$=valor]  Selecciona las etiquetas cuyo atributo termine con valor
+ [atributo|=valor]  Selecciona las etiquetas cuyo atributo comience con valor o valor-
+*/
+
+[href$=".com/"]{
+  background-color: royalblue;
+}
+[lang|="es"]{
+  background-color: brown;
+}
+[class="text"]{
+  background-color: yellowgreen;
+}
+
