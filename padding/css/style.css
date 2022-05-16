@@ -1,0 +1,11 @@
+/* 
+  padding-top:    padding superior
+  padding-right:  padding derecho
+  padding-bottom: padding inferior
+  padding-left:   padding izquierdo
+  
+  4 valores -> padding: top right bottom left;
+  3 valores -> padding: top left/right bottom;
+  2 valores -> padding: top/bottom left/right;
+  1 valor   -> padding: el valor que pongas lo agarra para todas
+*/
