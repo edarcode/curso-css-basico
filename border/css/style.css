@@ -1,0 +1,55 @@
+/* 
+  Control del ancho del borde
+
+  border-width:          valor;
+  border-top-width:      valor;
+  border-right-width:    valor;
+  border-bottom width:   valor;
+  border-left-width:     valor;
+
+  Control del color del borde
+
+  border-color:          valor;
+  border-top-color:      valor;
+  border-right-color:    valor;
+  border-bottom color:   valor;
+  border-left-color:     valor;
+
+  Control del estilo del bode
+
+  border-style:          valor;
+  border-top-style:      valor;
+  border-right-style:    valor;
+  border-bottom style:   valor;
+  border-left-style:     valor;
+
+  Listado de valores para style:
+    none
+    solid
+    dotted
+    dashed
+    ridge
+    hidden
+    double
+    groove
+    inset
+    outset
+*/
+
+body{
+  background-color: #252525;
+  color: white;
+}
+
+.title{
+  background-color: yellowgreen;
+  border: 20px solid royalblue;
+
+  border-width: 10px;
+  border-style: dashed;
+  border-color: brown;
+
+  border-top-width: 50px;
+  border-top-style: solid;
+  border-top-color: blueviolet;
+}
