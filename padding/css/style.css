@@ -9,3 +9,18 @@
   2 valores -> padding: top/bottom left/right;
   1 valor   -> padding: el valor que pongas lo agarra para todas
 */
+body{
+  background-color: #252525;
+  color: white;
+}
+
+.title{
+  background-color: yellowgreen;
+  padding: 100px;
+}
+
+.edarcode{
+  background-color: royalblue;
+  padding-left: 50px;
+  padding-bottom: 100px;
+}
