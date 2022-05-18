@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #252525;
+  color: brown;
+}
+
+/* 
+  Conntrola qué debe hacer la caja cuando su contenido se desborda.
+  Es un shorthand que engloba overflow-x y overflow-y
+
+  Posibles valores:
+    overflow: visible;     -> Es el valor por defecto.
+    overflow: scroll;      -> Aparecerán barras de scroll en el eje asignado (x, y o ambos) 
+    overflow: auto;        -> Aparecerán barras de scroll en el caso de que hicieran falta.
+    overflow: hidden;      -> El contenido que se desborde no se verá. 
+    .                         Si aplicamos esta propiedad en un solo eje,
+    .                         el otro se pondrá automáticamente en el valor scroll.
+
+*/  
+
+.text{
+  width: 200px;
+  height: 200px;
+  background-color: yellowgreen;
+  overflow: auto;
+}
+.box{
+  width: 300px;
+  height: 300px;
+  background-color: royalblue;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.box__image{
+  width: 100%;
+}
+.box__text{
+  width: 90%;
+  margin: 0 auto;
+}
