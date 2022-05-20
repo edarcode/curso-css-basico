@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #252525;
+  color: white;
+}
+
+/*
+
+  box-shadow se creó para añadir efectos de sombra a nuestra caja.
+  Crea un clon de la caja respetando la forma de su box-model (ancho, alto, redondez)
+  La sombra no ocupa espacio tal cual como hace outline
+  Puedes crear tantas sombras como desees separando por coma cada sentencia
+
+  .              requerido  requerido
+  .             horizontal| vertical | difuminado | padding |   color   | estilo 
+  box-shadow:       5px        5px         5px        5px     royalblue   inset    ;
+
+*/
+.box{
+  margin: 150px auto;
+  background-color: darkolivegreen;
+  width: 300px;
+  height: 300px;
+  box-shadow: 3px 3px 50px 1px royalblue inset, -8px -8px , 15px 15px brown, 20px 20px yellow;
+  border-radius: 25px;
+}
