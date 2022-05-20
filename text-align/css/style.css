@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #252525;
+  color: white;
+  text-align: center;
+}
+
+/*
+
+  text-align nos permite alinear horizontalmente
+  el CONTENIDO de una caja de BLOQUE.
+
+  **** ALINEA EL CONTENIDO, NO LA CAJA EN SI ****
+
+  text-align: left;     -> Alinea el contenido a la izquierda
+  text-align: right;    -> Alinea el contenido a la derecha
+  text-align: center;   -> Alinea el contenido al centro
+  text-align: justify;  -> Alinea el contenido de forma justificada
+  
+*/
+
+  
+.enlace{
+  background-color: yellowgreen;
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+}
+.box{
+  background-color: royalblue;
+  text-align: center;
+}
+.box__text{
+  background-color: brown;
+  width: 30%;
+  display: inline-block;
+}
+
+img{
+  width: 50%;
+}
+
