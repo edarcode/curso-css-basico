@@ -32,7 +32,7 @@ body{
 
     position: static;    -> Es el valor por defecto de una caja, no podremos moverlo
 
-    position: relative;  -> La caja mantendrá su posición y su espacio reservado. Si lo movemos lo hará con respecto al html.
+    position: relative;  -> La caja mantendrá su posición y su espacio reservado. Si lo movemos lo hará con respecto a su misma posición en el html.
 
     position: absolute;  -> La caja perderá sus medidas y su espacio reservado. Si lo movemos lo hará con respecto a su caja padre,
     .                       pero solo si dicho padre está posicionado, si no se posicionará con respecto al html.
