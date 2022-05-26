@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #252525;
+  color: white;
+}
+
+/*
+  => Position nos permite posicionar cajas con respecto a otra caja
+
+  => Caja posicionada -> Esto significa que la caja tiene la propiedad position y es diferente de "static"
+  
+  => Flujo de renderizado -> Los cajas se dibujan de izquierda a derecha y de arriba abajo. El punto 0,0 de cada caja es la esquina superior izquierda.
+
+  => Espacio reservado -> Es el espacio que tiene asignado una caja en el navegador.
+
+  => Contexto de apilamiento -> Orden en el que se apilarán las cajas que se superponen.
+
+  => Al posicionar una caja se habilitan 5 propiedades que podemos utilizar para mover los elementos en los 3 ejes:
+
+    top: valor;     ->  (eje y)
+    left: valor;    ->  (eje x)
+
+    bottom: valor;  ->  (eje y)
+    right: valor;   ->  (eje x)
+
+    z-index: valor; ->  (eje z)
+    
+  => position: relative;  -> La caja mantendrá su posición y su espacio reservado. Si lo movemos lo hará con respecto a su misma posición en el html.
+
+*/
+.box{
+  width: 300px;
+  height: 300px;
+}
+
+.box-yellow{
+  background-color: yellowgreen;
+}
+.box-blue{
+  background-color: royalblue;
+  position: relative;
+  top: 100px;
+  left: 500px;
+}
+.box-brown{
+  background-color: brown;
+}
