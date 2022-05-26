@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #252525;
+  color: white;
+}
+
+/*
+  => Position nos permite posicionar cajas con respecto a otra caja
+
+  => Caja posicionada -> Esto significa que la caja tiene la propiedad position y es diferente de "static"
+  
+  => Flujo de renderizado -> Los cajas se dibujan de izquierda a derecha y de arriba abajo. El punto 0,0 de cada caja es la esquina superior izquierda.
+
+  => Espacio reservado -> Es el espacio que tiene asignado una caja en el navegador.
+
+  => Contexto de apilamiento -> Orden en el que se apilarán las cajas que se superponen.
+
+  => Al posicionar una caja se habilitan 5 propiedades que podemos utilizar para mover los elementos en los 3 ejes:
+
+    top: valor;     -> moverá la caja desde la parte superior                   (eje y)
+    left: valor;    -> moverá la caja desde la parte izquierda                  (eje x)
+    right: valor;   -> moverá la caja desde la parte derecha                    (eje x)
+    bottom: valor;  -> moverá la caja desde la parte inferior                   (eje y)
+    z-index: valor; -> Nos permite mover la caja en el contexto de apilamiento  (eje z)
+
+  => Si a un elemento le declaramos la propiedad top y/o left, las propiedades bottom y/o right no funcionarán.
+
+  => Los posibles valores que le podemos dar a position son:
+
+    position: static;    -> Es el valor por defecto de una caja, no podremos moverlo
+
+    position: relative;  -> La caja mantendrá su posición y su espacio reservado. Si lo movemos lo hará con respecto al html.
+
+    position: absolute;  -> La caja perderá sus medidas y su espacio reservado. Si lo movemos lo hará con respecto a su caja padre,
+    .                       pero solo si dicho padre está posicionado, si no se posicionará con respecto al html.
+
+    position: fixed;     -> La caja perderá sus medidas y su espacio reservado. Si lo movemos lo hará con respecto al html.
+    .                       y además se quedará fijo en esa posición aunque hagamos scroll.
+
+    position: sticky;    -> Es una mezcla entre "relative" y "fixed". los valores top, left, bottom y right NO sirven para mover la caja, si no para indicarle en qué punto pasará a tener un comportamiento similar a fixed, hasta llegar a ese punto se comportará como si no tuviera posicionamiento, aunque sí contará como posicionado.
+
+  => z-index: valor;  -> Nos permite ordenar las cajas superpuestas. Controla cual se coloca por delante y cual por detrás.
+*/
+.box{
+  width: 300px;
+  height: 300px;
+  background-color: yellowgreen;
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  bottom: 0;
+  right: 0;
+}
+
