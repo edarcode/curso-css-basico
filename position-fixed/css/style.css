@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #252525;
+  color: white;
+}
+
+a{
+  color: inherit;
+}
+
+/*
+
+  =>
+    top: valor;     -> moverá la caja desde la parte superior                   (eje y)
+    left: valor;    -> moverá la caja desde la parte izquierda                  (eje x)
+
+    right: valor;   -> moverá la caja desde la parte derecha                    (eje x)
+    bottom: valor;  -> moverá la caja desde la parte inferior                   (eje y)
+
+  =>
+    position: fixed;     -> La caja perderá sus medidas y su espacio reservado. Si lo movemos lo hará con respecto al html.
+    .                       y además se quedará fijo en esa posición aunque hagamos scroll.
+*/
+
+.menu{
+  background-color: royalblue;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+}
+
+.menu a {
+  font-size: xx-large;
+  margin-right: 20px;
+}
+
+.text{
+  width: 100px;
+  padding-top: 70px;
+}
