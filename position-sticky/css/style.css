@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #252525;
+  color: white;
+  margin: 0;
+}
+
+a{
+  color: inherit;
+}
+
+/*
+
+  =>
+    top: valor;     -> moverá la caja desde la parte superior                   (eje y)
+    left: valor;    -> moverá la caja desde la parte izquierda                  (eje x)
+
+    right: valor;   -> moverá la caja desde la parte derecha                    (eje x)
+    bottom: valor;  -> moverá la caja desde la parte inferior                   (eje y)
+
+  =>
+    position: sticky;   
+
+    Es una mezcla entre "relative" y "fixed", pero los valores top, left, bottom y right NO sirven para mover la caja, si no para indicarle en qué punto pasará a tener un comportamiento similar a fixed, hasta llegar a ese punto se comportará como si no tuviera posicionamiento, aunque sí contará como posicionado.
+
+*/
+
+.box{
+  width: 100%;
+  height: 200px;
+  background-color: brown;
+}
+
+.text{
+  width: 100px;
+}
+
+.header{
+  width: 600px;
+  height: 600px;
+  background-color: yellowgreen;
+}
+
+.menu{
+  font-size: xx-large;
+  background-color: royalblue;
+  text-align: center;
+  
+  position: sticky;
+  top: 50px;
+}
+
+
