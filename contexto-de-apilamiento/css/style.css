@@ -1,0 +1,9 @@
+/* 
+  El algoritmo a seguir de quien va por delante y quien por detrás:
+
+  1 => El orden del contexto de apilamiento es: (de delante a atrás):
+  2 => Cajas posicionadas con un z-index de 1 ó más
+  3 => Cajas posicionados sin z-index declarado o z-index : auto;
+  4 => Cajas no posicionadas
+  5 => Cajas con z-index negativo
+*/
