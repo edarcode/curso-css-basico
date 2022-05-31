@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #252525;
+  color: white;
+}
+
+/*
+  z-index: valor; Nos permite ordenar las cajas superpuestas y controlar cual se coloca por delante y cual por detrás.
+
+  jamás podrás poner un padre por encima del hijo,
+  pero si un hijo detras del padre. Solo dando un valor negativo al z-index, pero
+  el padre no debe tener ningún z-index previamente declarado
+
+*/
+
+
+.box{
+  width: 300px;
+  height: 300px;
+  font-size: xx-large ;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.main{
+  background-color: darkolivegreen;
+  padding: 25px;
+  position: relative;
+  z-index: 0;
+}
+
+.box-1{
+  background-color: royalblue;
+  position: relative;
+  z-index: -1;
+}
+.box-2{
+  background-color: darkorange;
+  position: relative;
+  top: 250px;
+  z-index: 30;
+}
+.box-3{
+  background-color: brown;
+  position: relative;
+  z-index: 20;
+}
