@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #252525;
+  color: white;
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+}
+
+.header__title{
+  width: 50%;
+  background-color: brown;
+  min-width: 150px;
+  max-width: 400px;
+  margin: 0;
+}
+
+.main p{
+  background-color: darkolivegreen;
+}
+
+.footer{
+  background-color: royalblue;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
