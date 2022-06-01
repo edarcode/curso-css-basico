@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #252525;
+  color: white;
+  margin: 0;
+}
+
+/* 
+
+  VIEWPORT es el área visible de la ventana sin hacer scroll
+  
+  vw  -> hace referencia al ancho del viewport. 
+  1vw = 1% del ancho del viewport
+
+  vh  -> hace referencia al alto del viewport.
+  1vh = 1% del alto del viewport
+
+  
+  vmax  -> Utiliza el valor más grande entre el ancho y el alto del viewport.
+  vmin  -> Utiliza el valor más pequeño entre el ancho y el alto del viewport.
+  1vmin = 1% del valor que sea más pequeño del viewport
+  1vmax = 1% del valor que sea más grande del viewport
+
+*/
+
+.box{
+  width: 100vw;
+  height: 50vh;
+  background-color: royalblue;
+}
