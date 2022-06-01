@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #252525;
+  color: white;
+  height: 500px;
+}
+
+/*
+
+%     -> usamos de referencia el tamaño del contenedor padre
+
+auto  -> el navegador calcula por nosotros.
+
+*/
+
+.box{
+  width: 50%;
+  height: 50%;
+  background-color: royalblue;
+
+  width: auto;
+  height: auto;
+}
