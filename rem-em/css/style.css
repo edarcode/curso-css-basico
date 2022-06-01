@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #252525;
+  color: white;
+  font-size: 1.6rem;
+}
+
+/* 
+
+  rem toma como referencia el tamaño de letra que tenga el html
+
+  em toma como referencia el tamaño de letra que tenga su padre contenedor
+
+*/
+
+.text , .article__text{
+  width: 400px;
+  background-color: royalblue;
+  padding: 10px;
+}
+
+.text{
+  font-size: 1.6rem;
+}
+
+.article{
+  font-size: 3.2rem;
+}
+.article__text{
+  font-size: 1em;
+}
