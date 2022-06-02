@@ -19,6 +19,8 @@ body{
 
   rgb (R G B / A);
 
+  El cuarto valor va de 0 a 1 y decide la transparencia
+
 */
 
 .box{
